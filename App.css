@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4f8;
+  color: #333;
+}
+
+.header {
+  background: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.header h1 {
+  margin-bottom: 10px;
+}
+
+.page-title {
+  text-align: center;
+  margin: 25px;
+  color: #1e3a8a;
+}
+
+.employee-count {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.employee-form {
+  background: white;
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #ccc;
+}
+
+.employee-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 8px 5px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40af;
+}
+
+.controls {
+  max-width: 450px;
+  margin: 25px auto;
+}
+
+.employee-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+}
+
+.employee-card {
+  background: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px #ccc;
+}
+
+.employee-card h3 {
+  color: #1e3a8a;
+  margin-bottom: 15px;
+}
+
+.employee-card p {
+  margin: 10px 0;
+}
+
+.footer {
+  background: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.footer p {
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .employee-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
