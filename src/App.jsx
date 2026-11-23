@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
-import Footer from "./components/Footer";
-import EmployeeList from "./components/EmployeeList";
+import Footer from "./Footer";
+import EmployeeList from "./EmployeeList";
 
 function App() {
   const [employees, setEmployees] = useState([
